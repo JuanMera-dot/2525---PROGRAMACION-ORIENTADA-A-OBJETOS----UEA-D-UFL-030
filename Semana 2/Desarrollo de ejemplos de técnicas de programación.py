@@ -10,7 +10,7 @@
 
 print()
 
-print("//////////// CONOCE A TU JUGADOR Y ESCOGE AL MEJOR ///////////////")
+print("//////////// CONOCE A TU JUGADOR Y ESCOGE AL MEJOR ////////////////")
 
 print()
 
