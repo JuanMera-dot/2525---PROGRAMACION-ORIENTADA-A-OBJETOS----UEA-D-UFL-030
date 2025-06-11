@@ -1,5 +1,4 @@
-# Determinar el promedio semanal de temperaturas.
-
+# Determinar el promedio semanal de temperaturas
 # Creamos una lista con las temperaturas por cada día
 
 print("Calculo de temperatura semanal")

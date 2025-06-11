@@ -1,4 +1,4 @@
-# Promedio semanal del clima.
+# Promedio semanal del clima
 
 # Definimos las clases
 
