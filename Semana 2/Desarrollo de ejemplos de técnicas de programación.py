@@ -20,7 +20,7 @@ class Personaje:
 
      def __init__(self, nombre, fuerza, inteligencia, regate, tiro, resistencia, defensa):
          self.nombre = nombre
-         self.fuerza = fuerza
+         self.__fuerza = fuerza
          self.inteligencia = inteligencia
          self.regate = regate
          self.tiro = tiro
@@ -55,6 +55,9 @@ class Personaje:
      def cansado(self):
          self.resistencia = 0
          print(self.nombre, "Ha llegado a su limite el jugador")
+
+     def obt_fuerza(self):
+         return self.fuerza
 
 # DESTINAMOS UN ADVERSARIO QUE INTERVIENE EL REGATE DE EL PERSONAJE PRINCIPAL CON EL SECUNDARIO
 
@@ -149,6 +152,8 @@ class jugador_david():
 
 def posicion_jugador(pos):
     pos.posicion()
+    
+
 
 print("////////////////////////////////////////////////////////////////////////////////")
 
@@ -158,5 +163,7 @@ print("|| Jonatan ||")
 posicion_jugador(jugador_jonathan())
 print("|| David ||")
 posicion_jugador(jugador_david())
+
+print(mi_presonaje.obt_fuerza())
 
 
