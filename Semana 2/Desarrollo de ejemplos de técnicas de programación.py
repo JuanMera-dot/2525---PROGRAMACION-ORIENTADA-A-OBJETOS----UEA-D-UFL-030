@@ -1,6 +1,6 @@
-# Técnicas de programación
+# Técnicas de programación.
 
-# Personajes de futbol
+# Personajes de futbol.
 
 # ABSTRACCIÓN: colocar los atributos necesarios
 
