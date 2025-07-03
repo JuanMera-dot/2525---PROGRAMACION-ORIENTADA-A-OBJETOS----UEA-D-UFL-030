@@ -27,11 +27,16 @@ class Personaje:
          self.resistencia = resistencia
          self.defensa = defensa
 
+    # Encapsulación
+
+     def get_fuerza(self):
+         return self.__fuerza
+
 # IMPRIMIMOS LOS ATRIBUTOS
 
      def atributos(self):
          print(self.nombre, sep= "")
-         print("Fuerza:", self.fuerza)
+         print("Fuerza:", self.__fuerza)
          print("Inteligencia: ", self.inteligencia)
          print("Regate:", self.regate)
          print("Tiro:", self.tiro)
@@ -41,7 +46,7 @@ class Personaje:
 # INCREMENTAMOS LOS ATRIBUTOS
 
      def subir_nivel(self, fuerza, inteligencia, regate, tiro, resistencia, defensa):
-         self.fuerza = self.fuerza + fuerza
+         self.__fuerza = self.__fuerza + fuerza
          self.inteligencia = self.inteligencia + inteligencia
          self.regate = self.regate + regate
          self.tiro = self.tiro + tiro
@@ -57,7 +62,7 @@ class Personaje:
          print(self.nombre, "Ha llegado a su limite el jugador")
 
      def obt_fuerza(self):
-         return self.fuerza
+         return self.__fuerza
 
 # DESTINAMOS UN ADVERSARIO QUE INTERVIENE EL REGATE DE EL PERSONAJE PRINCIPAL CON EL SECUNDARIO
 
@@ -92,7 +97,6 @@ print(mi_presonaje.superar(mi_defe), "puntos")
 
 print()
 
-
 # HERENCIA
 print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 
@@ -124,6 +128,8 @@ class hermano(Personaje):
 
         print()
 
+# Herencia
+
 David = hermano("David", 100, 99, 99, 60, 70, 100, 140)
 David.cambiar_zapatos()
 David.atributos()
@@ -152,8 +158,6 @@ class jugador_david():
 
 def posicion_jugador(pos):
     pos.posicion()
-    
-
 
 print("////////////////////////////////////////////////////////////////////////////////")
 
@@ -163,7 +167,8 @@ print("|| Jonatan ||")
 posicion_jugador(jugador_jonathan())
 print("|| David ||")
 posicion_jugador(jugador_david())
-
+print()
+# Obtención de fuerza por encapsulación
 print(mi_presonaje.obt_fuerza())
 
 
