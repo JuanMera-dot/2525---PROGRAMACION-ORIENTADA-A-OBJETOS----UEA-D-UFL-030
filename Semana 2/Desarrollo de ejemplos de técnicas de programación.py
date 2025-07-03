@@ -97,7 +97,7 @@ print(mi_presonaje.superar(mi_defe), "puntos")
 
 print()
 
-# HERENCIA
+
 print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 
 print()
