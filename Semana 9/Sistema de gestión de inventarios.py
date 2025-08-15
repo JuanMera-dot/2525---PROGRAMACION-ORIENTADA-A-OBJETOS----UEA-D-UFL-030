@@ -1,4 +1,4 @@
-# Sistema de inventario pra la tienda de celulares CellStore
+# Sistema de inventario pra la tienda de celulares CellStore...
 # Definimos la clase Dispositivos
 class Dispositivos:
     #Inicializamos la clase con sus atributos
