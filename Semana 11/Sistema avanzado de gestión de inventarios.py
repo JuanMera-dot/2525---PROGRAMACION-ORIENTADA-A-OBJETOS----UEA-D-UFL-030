@@ -37,7 +37,7 @@ class Inventario:
     #Inicializamos la clase
 
     def __init__(self):
-        self.dispositivos = {} # Diccionario que almacena los dispositivos, usando el ID como clave
+        self.dispositivos = {} # Diccionario que almacena los dispositivos, usando el ID como clave.
         self.archivo = "Inventario.txt"
         self.cargar_desde_archivo()
 
