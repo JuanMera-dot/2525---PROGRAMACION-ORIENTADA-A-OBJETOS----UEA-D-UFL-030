@@ -1,0 +1,4 @@
+001, Samsung, 560, 140.0, rojo
+002, iphone, 690, 500.0, blanco
+003, motorola, 90, 120.0, azul
+004, infinix, 90, 137.0, negro
