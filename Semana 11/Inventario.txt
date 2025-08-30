@@ -1,5 +1,0 @@
-001, Samsung, 300, 450.0, rojo
-002, motorola, 79, 120.0, blanco
-003, iphone, 54, 1500.0, azul
-004, infinix, 500, 120.0, negro
-hola ing.
