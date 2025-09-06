@@ -1,4 +1,4 @@
-# Biblioteca virtual
+# Biblioteca virtual..
 
 # Colocamos la clase Libro y la inicializamos con __init__
 class Libro:
