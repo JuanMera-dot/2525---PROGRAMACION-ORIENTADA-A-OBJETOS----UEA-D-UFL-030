@@ -1,9 +1,9 @@
-#Importamos la librería tkinter para empezar con la interfaz gráfica
+#Importamos la librería tkinter para empezar con la interfaz gráfica.
 
 import tkinter as tk
 from tkinter import messagebox, Listbox
 
-# Agregamos la funcion de agregar los datos en la lista que el usuario quiera
+# Agregamos la funcion de agregar los datos en la lista que el usuario quiera.
 def agregar_datos():
     datos = entrada_de_datos.get()
     if datos.strip():
@@ -62,6 +62,6 @@ boton_limpiar = tk.Button(
 )
 boton_limpiar.pack(pady=10, ipadx=10)
 
-# Inicializamos el programa
+# Inicializamos el programa.
 
 ventana.mainloop()
