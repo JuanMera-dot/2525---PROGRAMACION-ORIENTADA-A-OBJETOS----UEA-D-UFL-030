@@ -1,6 +1,6 @@
-# Agenda personal
+# Agenda personal.
 
-# Importación de librerías necesarias
+# Importación de librerías necesarias.
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
