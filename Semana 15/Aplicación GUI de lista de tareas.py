@@ -36,8 +36,8 @@ def marcar_complatada():
     if seleccion:
         index = seleccion[0]
         tarea = lista_de_tareas.get(index)
-        if not tarea.startswith("***"):
-            tarea = "***" + tarea
+        if not tarea.startswith("Completada/"):
+            tarea = "Completada/" + tarea
             lista_de_tareas.delete(index)
             lista_de_tareas.insert(index, tarea)
 
