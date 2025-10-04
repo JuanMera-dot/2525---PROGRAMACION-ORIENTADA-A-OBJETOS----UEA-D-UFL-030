@@ -1,4 +1,4 @@
-# Importacion de librerias necesarias
+# Importacion de librerias necesarias.
 
 import tkinter as tk
 from tkinter import messagebox
